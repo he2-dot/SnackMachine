@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ This\ class\ creates\ a\ student\ that\ will\ buy\ their\ favourite\ flavour\ from\r\n\ the\ snack\ machine\ through\ the\ pennies\ in\ the\ Pocket\ class,\ eat\ the\ crisps,\r\n\ then\ throw\ the\ empty\ pack\ away.\r\n\r\n\ @author\ Holly\ Essen\r\n\ @version\ 01/12/2025\r\n
+comment1.params=flavour\ machine
+comment1.target=Student(java.lang.String,\ SnackMachine)
+comment1.text=\r\n\ Specifies\ the\ student's\ ID\ number,\ favourite\ crisp\ flavour\r\n\ the\ snack\ machine\ they'll\ use,\ the\ amount\ of\ pennies\ they\ have\ \r\n\ and\ states\ that\ they\ have\ not\ bought\ a\ pack\ of\ crisps\ yet.\r\n\ \r\n\ @param\ flavour\ Specifies\ the\ \ student's\ favourite\ flavour\ of\ crisps.\r\n\ @param\ machine\ Specifies\ what\ machine\ the\ student\ will\ buy\ from.\r\n
+comment2.params=
+comment2.target=void\ buyCrisps()
+comment2.text=\r\n\ Causes\ the\ student\ to\ buy\ a\ pack\ of\ crisps\ from\ the\ snack\ machine\r\n\ using\ the\ pennies\ in\ their\ pocket,\ and\ then\ storing\ it\ as\ a\ bought\r\n\ pack\ of\ crisps.\r\n\r\n
+comment3.params=
+comment3.target=void\ snackTime()
+comment3.text=\r\n\ Invokes\ the\ student\ to\ buy\ a\ pack\ of\ crisps\ if\ they\ have\ none,\ open\ it\ if\ its\r\n\ closed,\ eat\ all\ the\ crisps\ until\ the\ pack\ is\ empty,\ before\ throwing\ \r\n\ the\ pack\ away,\ and\ declaring\ the\ boughtPack\ field\ null.\r\n
+numComments=4

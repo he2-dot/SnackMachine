@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Pocket
+comment0.text=\r\n\ This\ class\ creates\ a\ pocket\ for\ the\ Student\ class\ so\ that\ the\ students\r\n\ have\ a\ way\ of\ storing\ pennies\ before\ inserting\ them\ into\ the\ snack\ \r\n\ machine.\r\n\r\n\ @author\ Holly\ Essen\r\n\ @version\ 01/12/2025\r\n
+comment1.params=sizeOfPocket
+comment1.target=Pocket(int)
+comment1.text=\r\n\ Creates\ a\ pocket\ which\ already\ has\ a\ predetermined\ amount\ of\ pennies\r\n\ in\ it.\r\n\ \r\n\ @param\ sizeOfPocket\ The\ maximum\ amount\ of\ pennies\ the\ pocket\ can\ store\r\n
+comment2.params=
+comment2.target=int\ pennyCount()
+comment2.text=\r\n\ Counts\ the\ amount\ of\ Penny\ objects\ in\ the\ pocket.\r\n\ \r\n\ @return\ Number\ of\ pennies\ in\ the\ pocket.\r\n
+comment3.params=
+comment3.target=Penny\ removePenny()
+comment3.text=\r\n\ Removes\ and\ then\ returns\ a\ Penny\ removed\ from\ the\ pocket.\r\n\ \r\n\ @return\ The\ penny\ that\ was\ removed\r\n\ @return\ There\ are\ no\ pennies\ available\ to\ remove.\r\n
+numComments=4

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=SnackMachine
+comment0.text=\r\n\ This\ class\ represents\ a\ real\ world\ snack\ machine,\ that\ allows\ for\ the\ payment\r\n\ of\ crisps\ from\ the\ PackOfCrisps\ class.\r\n\ \r\n\ It\ allows\ the\ insertion\ of\ many\ Penny\ and\ PackOfCrisps\ objects\ (if\ the\ \r\n\ maximum\ amount\ of\ crisps\ allowed\ in\ the\ machine\ is\ not\ exceeded),\ and\ provides\r\n\ a\ pack\ of\ crisps\ if\ the\ right\ number\ of\ Penny\ onjects\ are\ inserted.\r\n\ \r\n\ This\ class\ counts\ the\ price\ of\ the\ crisps,\ the\ amount\ of\ crisps\ of\ a\ specified\ \r\n\ flavour\ within\ the\ machine,\ the\ amount\ of\ Penny\ objects\ already\ inserted\ \r\n\ (if\ no\ packs\ have\ been\ bought\ yet)\ and\ the\ amount\ of\ packs\ bought\ from\ the\ \r\n\ machine.\r\n\r\n\ @author\ Holly\ Essen\r\n\ @version\ 01/12/2025\r\n
+comment1.params=maxNumOfPackets\ costOfPack
+comment1.target=SnackMachine(int,\ int)
+comment1.text=\r\n\ Creates\ a\ snack\ machine\ that\ sells\ crisps\ after\ a\ certain\ number\ of\r\n\ pennies\ are\ inserted\ into\ it.\r\n\ \r\n\ @param\ maxNumOfPackets\ sets\ up\ the\ capacity\ of\ crisps\ the\ machine\ can\ hold\r\n\ \r\n\ @param\ costOfPack\ sets\ up\ the\ cost\ of\ each\ pack\ of\ crisp\r\n
+comment2.params=
+comment2.target=int\ getCost()
+comment2.text=\r\n\ returns\ the\ price\ of\ a\ pack\ of\ crisps.\r\n\ @return\ The\ cost\ of\ each\ crisp\ packet.\r\n
+comment3.params=pack
+comment3.target=void\ addPack(PackOfCrisps)
+comment3.text=\r\n\ Adds\ a\ pack\ of\ crisps\ object\ to\ the\ machine\ by\ checking\ if\ the\ capacity\ of\ \r\n\ the\ machine\ has\ been\ surpassed,\ and\ adding\ a\ pack\ if\ it\ has\ not\ been\ \r\n\ surpassed.\ if\ it\ has\ been\ surpassed\ a\ statement\ is\ printed.\r\n
+comment4.params=flavour
+comment4.target=int\ countPacks(java.lang.String)
+comment4.text=\r\n\ Counts\ the\ number\ of\ packs\ in\ the\ machine\ of\ a\ given\ string\ flavour.\r\n\ This\ method\ goes\ through\ every\ pack\ in\ the\ machine\ and\ increments\ the\r\n\ numOfFlavours\ by\ 1\ whenever\ the\ specified\ string\ flavour\ is\ equal\ to\ the\r\n\ pack\ string\ flavour.\r\n\ \r\n\ @param\ flavour\ the\ flavour\ that\ is\ going\ to\ be\ counted.\r\n\ @return\ the\ amount\ of\ packs\ of\ a\ specified\ flavour.\r\n
+comment5.params=penny
+comment5.target=void\ insertMoney(Penny)
+comment5.text=\r\n\ Inserts\ a\ Penny\ object\ into\ the\ machine,\ and\ stores\ it\ in\ the\ pennies\r\n\ arrayList\ and\ payment\ fields.\r\n
+comment6.params=flavour
+comment6.target=PackOfCrisps\ buyPack(java.lang.String)
+comment6.text=\r\n\ Allows\ the\ payment\ and\ retrieval\ of\ a\ pack\ of\ crisps\ flavour\ from\ the\ machine\ \r\n\ after\ the\ number\ of\ penny\ objects\ in\ the\ machine\ is\ equal\ to\ the\ cost\ of\ \r\n\ a\ pack,\ and\ if\ there\ are\ any\ pack\ flavours\ of\ the\ specified\ String\ flavour\r\n\ in\ the\ machine.\r\n\ \r\n\ @param\ flavour\ the\ flavour\ to\ be\ bought\ from\ the\ machine.\r\n\ @return\ a\ packet\ of\ crisps\r\n
+comment7.params=
+comment7.target=void\ describe()
+comment7.text=\r\n\ Describes\ the\ current\ state\ of\ the\ snack\ machine.\r\n
+numComments=8

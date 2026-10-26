@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PackOfCrisps
+comment0.text=\r\n\ Creates\ an\ object\ that\ acts\ like\ a\ pack\ of\ crisps.\ This\ means\ it\ can\ be\ \r\n\ closed/open,\ empty/contain\ crisps,\ has\ its\ own\ flavour\ and\ can\ be\ eaten\ from.\r\n\ \r\n\r\n\ @author\ Holly\ Essen\r\n\ @version\ 01/12/2025\r\n
+comment1.params=flavourOfCrisps
+comment1.target=PackOfCrisps(java.lang.String)
+comment1.text=\r\n\ Creates\ a\ closed\ pack\ of\ crisps\ containing\ 20\ crisps\r\n\ with\ a\ specified\ flavour.\r\n\ \r\n\ @param\ flavourOfCrisps\ the\ crisp\ flavour.\r\n
+comment2.params=
+comment2.target=boolean\ empty()
+comment2.text=\r\n\ decides\ if\ the\ pack\ is\ empty\ by\ checking\ if\ the\ number\ of\ crisps\ is\ \r\n\ equal\ to\ 0.\r\n\ @return\ a\ boolean\ about\ if\ the\ pack\ is\ empty\ or\ not.\r\n
+comment3.params=
+comment3.target=boolean\ isClosed()
+comment3.text=\r\n\ decides\ if\ the\ pack\ is\ open\ or\ closed.\r\n\ @return\ a\ boolean\ about\ if\ the\ pack\ is\ open\ or\ closed.\r\n
+comment4.params=
+comment4.target=void\ open()
+comment4.text=\r\n\ This\ opens\ the\ pack\ of\ crisps.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getFlavour()
+comment5.text=\r\n\ @return\ the\ flavour\ of\ the\ crisps.\r\n
+comment6.params=
+comment6.target=void\ eatCrisp()
+comment6.text=\r\n\ This\ enables\ an\ individual\ crisp\ to\ be\ eaten\ by\ checking\ if\ the\ pack\r\n\ is\ open\ and\ if\ its\ not\ empty,\ then\ reducing\ the\ amount\ of\ crisps\ by\ 1.\r\n
+numComments=7

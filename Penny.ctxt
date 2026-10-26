@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Penny
+comment0.text=\r\n\ This\ creates\ an\ object\ that\ will\ go\ on\ to\ be\ used\ as\ currency\ for\r\n\ the\ SnackMachine\ class.\r\n\r\n\ @author\ Holly\ Essen\r\n\ @version\ 01/12/2025\r\n
+comment1.params=
+comment1.target=Penny()
+numComments=2

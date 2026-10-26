@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SnackBar
+comment0.text=\r\n\ Creates\ a\ snack\ bar\ where\ different\ students\ can\ buy\ their\ own\ unique\ favourite\r\n\ crisp\ flavour,\ eat\ it,\ then\ throw\ it\ away.\ \r\n\ This\ repeats\ over\ a\ specified\ number\ of\ steps,\ and\ each\ step\ has\ a\ description\r\n\ of\ the\ snack\ machine\ and\ student's\ actions.\r\n\r\n\ @author\ Holly\ Essen\r\n\ @version\ 01/12/2025\r\n
+comment1.params=numOfStudents\ maxNumOfPacks\ costOfPack
+comment1.target=SnackBar(int,\ int,\ int)
+comment1.text=\r\n\ This\ creates\ a\ snack\ bar\ with\ an\ assortment\ of\ different\ crisp\ flavours,\r\n\ a\ snack\ machine\ filled\ with\ random\ crisp\ flavours,\ and\ a\ list\ of\ students\r\n\ each\ with\ their\ own\ random\ favourite\ crisp\ flavour.\r\n\ \r\n\ @param\ numOfStudents\ number\ of\ students\ in\ snack\ bar\r\n\ @param\ maxNumOfPacks\ capacity\ of\ the\ snack\ machine\r\n\ @param\ costOfPack\ cost\ of\ each\ pack\ in\ the\ snack\ machine\r\n
+comment2.params=
+comment2.target=java.lang.String\ randomFlavour()
+comment2.text=\r\n\ This\ method\ randomly\ selects\ a\ crisp\ flavour.\r\n\ \r\n\ @return\ a\ random\ crisp\ flavour\r\n
+comment3.params=
+comment3.target=void\ describe()
+comment3.text=\r\n\ Describes\ how\ many\ students\ are\ at\ the\ snack\ bar,\ and\ how\ many\r\n\ of\ each\ flavour\ of\ crisps\ the\ snack\ machine\ has.\r\n
+comment4.params=nSteps
+comment4.target=void\ runSnackBar(int)
+comment4.text=\r\n\ Over\ a\ specified\ number\ of\ steps,\ each\ step\ involves\ picking\ a\ random\r\n\ student\ to\ buy\ and\ eat\ their\ favourite\ crisp\ flavour\ from\ the\ snack\r\n\ machine.\r\n\ \r\n\ @param\ nSteps\ the\ number\ of\ steps\ random\ students\ buy\ packs\ from\ the\ machine\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ allows\ the\ snackBar\ to\ be\ run\ without\ blueJ.\r\n\ \r\n\ @param\ args\ The\ first\ item\ in\ the\ string\ creates\ the\ number\ of\ \r\n\ students\ in\ the\ snack\ bar,\ the\ second\ item\ determines\ the\ number\ \r\n\ of\ steps\ the\ snack\ bar\ will\ take.\r\n
+numComments=6
